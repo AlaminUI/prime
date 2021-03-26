@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="311px" viewBox="0 0 300 311" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>heros / 04 careers - graphic</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="300" height="311"></rect>
+    </defs>
+    <g id="heros-/-04-careers---graphic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graphic">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle"></g>
+            <g id="Group-2" mask="url(#mask-2)">
+                <g transform="translate(107.000000, 171.268322) rotate(-345.000000) translate(-107.000000, -171.268322) translate(43.000000, 62.268322)">
+                    <path d="M72.8938242,-3.63797881e-12 L72.8932196,80.109 L118.176992,80.1094668 C123.147555,80.1094668 127.176992,84.1389039 127.176992,89.1094665 C127.176992,90.6877295 126.76196,92.2382432 125.97353,93.605464 L54.5623873,217.439981 L54.5622196,137.33 L9.27921934,137.330514 C4.30865672,137.330514 0.279219575,133.301077 0.279219575,128.330515 C0.279219575,126.752252 0.694251881,125.201738 1.48268149,123.834517 L72.8938242,-3.63797881e-12 Z" id="Rectangle-2" fill="#FFFFFF"></path>
+                    <circle id="Oval" fill="#13CE67" cx="106.571092" cy="45.5510979" r="19.2711002"></circle>
+                </g>
+            </g>
+            <polygon id="Rectangle" fill="#008FFF" mask="url(#mask-2)" points="31.2999998 311 300 43.536645 299.499993 311"></polygon>
+            <line x1="165.65" y1="170" x2="-8.06612841" y2="343.716128" id="Path-11" stroke="#FFFFFF" stroke-width="10" mask="url(#mask-2)"></line>
+        </g>
+    </g>
+</svg>
