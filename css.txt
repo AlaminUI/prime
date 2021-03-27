@@ -1,0 +1,405 @@
+    <style type="text/css">
+        body {
+            font-family: Helvetica, sans-serif;
+            font-size: 14px
+        }
+
+        .clear {
+            clear: both
+        }
+
+        .mktoImg,
+        img {
+            max-width: 100%;
+            height: auto !important
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0;
+            font-weight: 700
+        }
+
+        .btn,
+        a,
+        button,
+        input[type=submit] {
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            position: relative
+        }
+
+        .mktoText ul li:before {
+            content: "•";
+            font-size: 40px;
+            line-height: 20px;
+            vertical-align: middle;
+            position: absolute;
+            left: 0
+        }
+
+        ul li {
+            padding-bottom: 1em;
+            padding-left: 20px
+        }
+
+        .container {
+            max-width: 970px
+        }
+
+        .borderImage img {
+            max-width: 100%
+        }
+
+        .borderImage .mktoImg {
+            display: block !important
+        }
+
+        .borderImage {
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto 20px
+        }
+
+        .borderImage p {
+            margin: 0
+        }
+
+        header {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 22px
+        }
+
+        footer {
+            padding-top: 100px;
+            padding-bottom: 50px
+        }
+
+        main {
+            padding-bottom: 50px
+        }
+
+        .pad-top {
+            padding-top: 50px
+        }
+
+        @media only screen and (min-width:768px) {
+            .colSeparator-sm {
+                border-right: 1px solid #dadada
+            }
+
+            .col-sm-pad-right {
+                padding-right: 40px
+            }
+
+            .col-sm-pad-left {
+                padding-left: 40px
+            }
+        }
+
+        @media only screen and (min-width:481px) {
+            .borderImage {
+                float: left;
+                max-width: 45%;
+                display: inline-block;
+                margin-right: 20px
+            }
+
+            .borderImage img {
+                padding-right: 20px
+            }
+        }
+    </style>
+    <style type="text/css">
+        .mktoForm {
+            font-family: Helvetica, sans-serif !important
+        }
+
+        .mktoForm option {
+            padding: 0 !important
+        }
+
+        .mktoForm {
+            padding: 0 !important;
+            box-sizing: border-box !important;
+            width: 100% !important
+        }
+
+        .mktoForm .mktoAsterix {
+            float: left !important;
+            padding-right: 5px !important;
+            padding-left: 0 !important
+        }
+
+        .mktoForm label {
+            font-size: 14px !important
+        }
+
+        .mktoForm .mktoLabel {
+            font-size: 14px !important;
+            width: 100% !important;
+            margin-bottom: 10px !important
+        }
+
+        .mktoForm input[type=date],
+        .mktoForm input[type=email],
+        .mktoForm input[type=number],
+        .mktoForm input[type=tel],
+        .mktoForm input[type=text],
+        .mktoForm input[type=url],
+        .mktoForm select,
+        .mktoForm textarea {
+            border: 1px solid #dadada !important;
+            margin: 0 auto !important;
+            float: none !important;
+            margin-bottom: 4px !important;
+            padding: 10px 6px !important;
+            -moz-border-radius: 0 !important;
+            -webkit-border-radius: 0 !important;
+            -ms-border-radius: 0 !important;
+            border-radius: 0 !important;
+            width: 100% !important;
+            font-size: 14px !important;
+            line-height: 1.2em !important;
+            min-height: 40px !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important
+        }
+
+        .mktoFieldDescriptor.mktoFormCol {
+            margin-bottom: 10px !important
+        }
+
+        .mktoButtonRow {
+            display: block !important
+        }
+
+        .mktoForm .mktoGutter,
+        .mktoForm .mktoOffset {
+            display: none !important
+        }
+
+        .mktoForm .mktoFieldWrap,
+        .mktoForm .mktoFormCol {
+            float: none !important
+        }
+
+        .mktoForm .mktoButtonWrap {
+            margin: 0 !important
+        }
+
+        .mktoForm .mktoButton {
+            font-size: 16px !important;
+            border-radius: 0 !important;
+            border: 0 !important;
+            text-transform: uppercase !important;
+            font-weight: 700 !important;
+            margin-top: 25px !important;
+            border: none;
+            border-radius: 6px !important;
+            background-color: #008fff !important;
+            background: #008fff !important;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .75px;
+            margin: 1rem 0;
+            display: inline-block;
+            padding: 12px 32px !important;
+            background-image: none !important
+        }
+    </style>
+    <style>
+        .header-bg {
+            background-image: url(https://go.primetrust.com/rs/152-APF-177/images/shape.png);
+            background-repeat: no-repeat;
+            background-size: 30%;
+            background-position: right bottom;
+            padding: 4rem 30% 14rem 7rem;
+            color: #fff;
+            background-color: #182749
+        }
+
+        .container-2 {
+            max-width: 1170px;
+            margin: 0 auto
+        }
+
+        .header-content {
+            padding-top: 165px;
+            max-width: 1080px
+        }
+
+        .header-content h1 {
+            font-size: 65px;
+            margin-bottom: 15px;
+            font-weight: 500
+        }
+
+        .header-content p {
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 15px;
+            line-height: 42px;
+            padding-right: 20%
+        }
+
+        .big-btn {
+            border: none;
+            border-radius: 6px;
+            background-color: #008fff;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .75px;
+            margin: 1rem 0;
+            display: inline-block;
+            padding: 12px 32px;
+            margin-top: 20px
+        }
+
+        .big-btn:hover {
+            opacity: .9;
+            color: #fff;
+            text-decoration: none
+        }
+
+        .cta-area {
+            background: #142c64;
+            padding: 100px 0
+        }
+
+        .container2 {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px
+        }
+
+        .cta-wrap h2 {
+            font-size: 38px;
+            color: #fff;
+            margin: 0;
+            text-align: center;
+            width: 100%
+        }
+
+        .align-items-center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+        .cta-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%
+        }
+
+        .cta-wrap a {
+            margin: 0 auto;
+        }
+
+        li.link-title {
+            color: #142c64;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px !important
+        }
+
+        .footer-content ul li a {
+            color: #142c64;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 42px
+        }
+
+        .footer-content ul li a:hover {
+            opacity: .9
+        }
+
+        .footer-content ul li {
+            margin: 0;
+            padding: 0
+        }
+
+        header.header-bg .container {
+            max-width: 1140px
+        }
+
+        @media (max-width:767px) {
+            .align-items-center {
+    display: block;
+}
+            .header-content h1 {
+                font-size: 40px
+            }
+
+            .header-content {
+                padding-top: 80px;
+                max-width: 100%
+            }
+
+            .header-bg {
+                padding: 4rem 0 7rem 0
+            }
+
+            .header-content p {
+                font-size: 18px;
+                line-height: 33px;
+                padding-right: 0
+            }
+
+            .cta-wrap {
+                justify-content: center;
+                flex-direction: column
+            }
+
+            .cta-wrap h2 {
+                color: #fff;
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 16px
+            }
+
+            .cta-area {
+                background: #142c64;
+                padding: 56px 0
+            }
+        }
+
+        @media (max-width:420px) {
+            .header-bg {
+                padding: 3rem 0 6rem 0
+            }
+
+            .header-content h1 {
+                font-size: 30px;
+                line-height: 1.4
+            }
+
+            .header-content p {
+                font-size: 16px;
+                line-height: 1.6
+            }
+
+            .cta-wrap h2 {
+                font-size: 28px;
+                line-height: 1.5
+            }
+        }
+    </style>

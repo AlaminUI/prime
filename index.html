@@ -257,7 +257,6 @@
             background-color: #008fff !important;
             background: #008fff !important;
             color: #fff;
-            font-size: 14px;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: .75px;
@@ -343,8 +342,10 @@
         }
 
         .align-items-center {
-            align-items: center
-        }
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
         .cta-wrap {
             display: flex;
@@ -354,7 +355,7 @@
         }
 
         .cta-wrap a {
-            margin: 0
+            margin: 0 auto;
         }
 
         li.link-title {
@@ -386,6 +387,9 @@
         }
 
         @media (max-width:767px) {
+            .align-items-center {
+    display: block;
+}
             .header-content h1 {
                 font-size: 40px
             }
